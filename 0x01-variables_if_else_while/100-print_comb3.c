@@ -17,7 +17,7 @@ int main(void)
 	{
 		for (y = d + 1; y <= '9'; y++)
 		{
-			if(y != d)
+			if (y != d)
 			{
 				putchar(d);
 				putchar(y);
