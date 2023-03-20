@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time>
+#include <time.h>
 
 /**
  * main - Write a program that prints all possible different
