@@ -1,15 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Write a program that prints _putchar, followed by a new line.
- * Return: 0 (success)
- *
+ * main - the function to print putchar without printf
+ * Return: 1 (success)
  */
 
-int main(void)
+int _putchar(char c)
 {
-	printf("\_putchar"\n);
-	return (0);
+	return (write(1, &c, 1));
 }
